@@ -9,22 +9,22 @@ public interface Registered_user {
     /// <summary>
     /// @param string
     /// </summary>
-    public void include_discount(discount_code string);
+    public void include_discount( string discount_code);
 
     /// <summary>
     /// @param string
     /// </summary>
-    public void customize_itinerary(itinerary_ID string);
+    public void customize_itinerary( string itinerary_ID);
 
     /// <summary>
     /// @param string 
     /// @param string
     /// </summary>
-    public void add_review(itinerary_ID string, comment string);
+    public void add_review( string itinerary_ID,  string comment);
 
     /// <summary>
     /// @param string
     /// </summary>
-    public void get_itinerary(itinerary_ID string);
+    public void get_itinerary( string itinerary_ID);
 
 }
